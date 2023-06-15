@@ -1,6 +1,7 @@
 // Created by inigo quilez - iq/2013
 // License Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License. 
-//shader link https://www.shadertoy.com/view/Xsf3Rn
+//shader link https://www.shadertoy.com/view/Xsf3Rn 
+#pragma header
 uniform float iTime
 vec3 deform( in vec2 p, in float t )
 {
