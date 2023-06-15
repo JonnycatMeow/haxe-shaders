@@ -19,7 +19,7 @@ vec3 deform( in vec2 p, in float t )
     return flixel_texture2D( bitmap, 0.5*uv ).xyz;
 }
 
-void mainImage()
+void main()
 {
 	vec2 q = openfl_TextureCoordv;
     vec2 p = -1.0 + 2.0*q;
